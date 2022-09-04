@@ -1,0 +1,208 @@
+body {
+  background-color: rgb(242, 246, 249);
+}
+
+#menu-droit, #p-milieu {
+  display: inline-block;
+  vertical-align: top;
+  height: 100vh;
+}
+
+#menu-droit {
+  width: 250px;
+}
+#menu-droit .gmail p, #menu-droit h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+#menu-droit .gmail p .menu, #menu-droit h1 .menu {
+  border: 1px solid black;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+}
+#menu-droit .gmail p .mail, #menu-droit h1 .mail {
+  width: 30px;
+}
+#menu-droit .gmail p h1, #menu-droit h1 h1 {
+  color: rgb(98, 96, 96);
+}
+#menu-droit .nouve-message {
+  border: 1px solid rgb(168, 224, 251);
+  border-radius: 20px;
+  text-align: left;
+  margin-right: 40px;
+  height: 50px;
+  background-color: rgb(168, 224, 251);
+}
+#menu-droit .nouve-message br {
+  border: 1px solid black;
+}
+#menu-droit .nouve-message p {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#menu-droit #contentScroll {
+  margin-right: 0px;
+  height: 490px;
+  overflow: auto;
+}
+#menu-droit #contentScroll ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+#menu-droit #contentScroll ul li {
+  word-wrap: break-word;
+  margin-left: 0px;
+}
+#menu-droit #contentScroll p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+#p-milieu {
+  width: 1075px;
+}
+#p-milieu section, #p-milieu aside {
+  display: inline-block;
+  vertical-align: top;
+}
+#p-milieu section {
+  width: 1020px;
+}
+#p-milieu #content {
+  background-color: white;
+  border-radius: 15px;
+  height: 570px;
+}
+#p-milieu #head-content p {
+  display: inline-block;
+  vertical-align: top;
+}
+#p-milieu #head p {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+#p-milieu #head input {
+  margin-left: -30px;
+  height: 50px;
+  width: 700px;
+  border: 1px solid rgb(242, 246, 249);
+  border-radius: 10px;
+  background-color: rgb(238, 250, 255);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: large;
+  box-shadow: 0px 0px 2px rgb(224, 246, 255);
+}
+#p-milieu #para {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  width: 190px;
+  margin-left: 80px;
+}
+#p-milieu #para p {
+  margin-left: 10px;
+}
+#p-milieu header {
+  width: 1020px;
+}
+#p-milieu header .search {
+  position: relative;
+  left: 10px;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+}
+#p-milieu header .option {
+  position: relative;
+  right: 40px;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+}
+#p-milieu #msgs {
+  height: 500px;
+  overflow: auto;
+}
+#p-milieu #msgs #menumsg div {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+#p-milieu #msgs #menumsg div .active {
+  border-bottom: solid blue 1px;
+  border: 1px solid black;
+}
+#p-milieu #msgs #menumsg div p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#p-milieu #msgs ul {
+  list-style-type: none;
+}
+#p-milieu #msgs ul li {
+  margin-left: -40px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  height: 50px;
+}
+#p-milieu #msgs ul li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+#p-milieu #msgs ul li input {
+  height: 20px;
+  width: 20px;
+}
+#p-milieu #msgs ul li #check, #p-milieu #msgs ul li #favorite {
+  width: auto;
+}
+#p-milieu #msgs ul li #title-mail {
+  width: 300px;
+}
+#p-milieu #msgs ul li #content-mail {
+  width: 500px;
+}
+#p-milieu #gauche ul {
+  list-style-type: none;
+}
+#p-milieu #gauche ul li {
+  margin-left: -40px;
+  text-align: center;
+}
+
+.icon-menu {
+  height: 20px;
+  width: 20px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.profil {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
